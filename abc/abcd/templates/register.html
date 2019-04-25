@@ -1,0 +1,26 @@
+{% load crispy_forms_tags %}
+<head>
+  <title> Register </title>
+</head>
+<body style="background-image: linear-gradient(to right, rgba(51,61,255,0), rgba(51,61,255,1));">
+<div style="padding: 100px 400px 0px 100px";>
+  <form method='POST' > 
+	   {% csrf_token %}
+       <fieldset class="form-group">
+      <legend class="border-bottom mb-4"><b><u>WELCOME TO WEBICHAT </u></b></legend>
+       		{{ form|crispy }}
+       	
+       </fieldset>
+       <div class="form-group" style="text-align: center; padding: 15px">
+       	<button class="btn btn-outline-info" type="submit">
+       		<b>Sign Up</b>
+       	</button>
+</form>
+<div class="border-top pt-3" style="text-align: center">
+	<small class="text-muted">
+		<i>Already have an account?
+		 <a href="{% url 'login' %}">sign in</a></i>
+	</small>
+</div>
+    </div>
+       
