@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"backgro",
+				"background-image\tproperty"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"text",
+				"text-position"
+			],
+			[
+				"username",
+				"username1"
+			],
+			[
+				"use",
+				"username1"
+			],
+			[
+				"all",
+				"all_message"
+			],
+			[
+				"inf",
+				"infor"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
 				"ht",
 				"HttpRespose"
 			]
@@ -12,10 +60,55 @@
 	"buffers":
 	[
 		{
+			"file": "templates/show.html",
+			"settings":
+			{
+				"buffer_size": 1108,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/home.html",
+			"settings":
+			{
+				"buffer_size": 124,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/logout.html",
+			"settings":
+			{
+				"buffer_size": 160,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/register.html",
+			"settings":
+			{
+				"buffer_size": 820,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/login.html",
+			"settings":
+			{
+				"buffer_size": 700,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "abcd/settings.py",
 			"settings":
 			{
-				"buffer_size": 3132,
+				"buffer_size": 3193,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -24,25 +117,8 @@
 			"file": "abcd/urls.py",
 			"settings":
 			{
-				"buffer_size": 815,
+				"buffer_size": 1311,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chat_app/admin.py",
-			"settings":
-			{
-				"buffer_size": 114,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chat_app/tests.py",
-			"settings":
-			{
-				"buffer_size": 60,
 				"line_ending": "Windows"
 			}
 		},
@@ -50,31 +126,15 @@
 			"file": "chat_app/models.py",
 			"settings":
 			{
-				"buffer_size": 210,
-				"encoding": "UTF-8",
+				"buffer_size": 490,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "from django.http import HttpResponse\nfrom django.shortcuts import render\n#def home_view(*args,**kwargs):\n#return HttpResponse(\"yeah, it is my first app and it is working\")\ndef home_view(*args,**kwargs):\n\treturn render(request,\"home.html\",{})\n",
 			"file": "chat_app/views.py",
-			"file_size": 173,
-			"file_write_time": 132004153947654168,
 			"settings":
 			{
-				"buffer_size": 242,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<h1>Hello world</h1>",
-			"file": "templates/home.html",
-			"file_size": 0,
-			"file_write_time": 132004164836754764,
-			"settings":
-			{
-				"buffer_size": 20,
+				"buffer_size": 1291,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -121,6 +181,26 @@
 	],
 	"file_history":
 	[
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/chats.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/register.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/chat_app/views.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/show.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/abcd/settings.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/abcd/urls.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/addchat.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/addchat1.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/base.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/chat_app/models.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/chat.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/addchat1",
+		"/C/Users/STARLORD/hackthon/abc/abcd/db.sqlite3",
+		"/C/Users/STARLORD/hackthon/abc/abcd/chat_app/forms.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/chat_app/apps.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/chat_app/tests.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/chat_app/admin.py",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/login.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/logout.html",
+		"/C/Users/STARLORD/hackthon/abc/abcd/templates/home.html",
 		"/C/Users/STARLORD/trydjango/test2/test3/try/try/settings.py",
 		"/C/Users/STARLORD/trydjango/test2/test3/try/students/admin.py",
 		"/C/Users/STARLORD/trydjango/test2/test3/try/class/admin.py",
@@ -132,7 +212,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -163,59 +243,57 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "abcd/settings.py",
+					"file": "templates/show.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3132,
+						"buffer_size": 1108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1663,
-								1663
+								0,
+								152
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
-						"translation.x": 134.0,
-						"translation.y": 707.333333333,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "abcd/urls.py",
+					"file": "templates/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 815,
+						"buffer_size": 124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								815,
-								815
+								0,
+								44
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -226,24 +304,144 @@
 				},
 				{
 					"buffer": 2,
-					"file": "chat_app/admin.py",
+					"file": "templates/logout.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 114,
+						"buffer_size": 160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								113
+								23,
+								23
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "abcd/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3193,
+								3193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1297.33333333,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "abcd/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1311,
+								1311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -253,12 +451,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "chat_app/tests.py",
-					"semi_transient": false,
+					"buffer": 7,
+					"file": "chat_app/models.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 60,
+						"buffer_size": 490,
 						"regions":
 						{
 						},
@@ -277,91 +475,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chat_app/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "chat_app/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 242,
+						"buffer_size": 1291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								1263,
+								1263
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "templates/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								20
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -369,7 +512,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -406,7 +549,7 @@
 	"project": "hello.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -444,7 +587,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 170.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
